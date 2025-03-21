@@ -38,12 +38,12 @@ class View(QWidget):
 
         hbox = QHBoxLayout()
         hbox.addStretch(1)
-        vbox.addLayout(hbox_formular)
         hbox.addWidget(self.btn1)
         hbox.addWidget(self.btn2)
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.te1)
+        vbox.addLayout(hbox_formular)
         vbox.addLayout(hbox)
         vbox.addWidget(self.lbl1)
 
