@@ -40,4 +40,7 @@ class Control:
         
     
     def pow(self, a, b):
-        return a**b
+        if(a==0):
+            return 0
+        else
+            return a**b
